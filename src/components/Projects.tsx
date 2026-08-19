@@ -115,7 +115,7 @@ export default function Projects() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto"
+          className="grid grid-cols-2 gap-3 sm:gap-8 max-w-4xl mx-auto"
         >
           {projects.map((project, index) => (
             <motion.div
@@ -131,30 +131,30 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  sizes="(max-width: 768px) 100vw, 450px"
+                  sizes="(max-width: 768px) 50vw, 450px"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 
                 {/* Category Floating Badge */}
-                <div className="absolute top-4 left-4 glass-panel px-3 py-1 rounded-full text-[10px] font-bold tracking-wider text-primary border border-primary/20 bg-background/90 uppercase">
+                <div className="absolute top-2 sm:top-4 left-2 sm:left-4 glass-panel px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[8px] sm:text-[10px] font-bold tracking-wider text-primary border border-primary/20 bg-background/90 uppercase">
                   {project.category}
                 </div>
               </div>
 
               {/* Project Content */}
-              <div className="p-6 flex flex-col justify-between flex-grow space-y-6">
-                <div className="space-y-3">
-                  <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors text-left">
+              <div className="p-3 sm:p-6 flex flex-col justify-between flex-grow space-y-3 sm:space-y-6">
+                <div className="space-y-1.5 sm:space-y-3">
+                  <h3 className="text-sm sm:text-xl font-bold text-foreground group-hover:text-primary transition-colors text-left line-clamp-1">
                     {project.title}
                   </h3>
-                  <p className="text-foreground/75 text-sm leading-relaxed line-clamp-3 text-left">
+                  <p className="text-foreground/75 text-[10px] sm:text-sm leading-relaxed line-clamp-2 sm:line-clamp-3 text-left">
                     {project.description}
                   </p>
                 </div>
 
-                <div className="space-y-6">
+                <div className="space-y-3 sm:space-y-6">
                   {/* Tech stack badges */}
-                  <div className="flex flex-wrap gap-1.5">
+                  <div className="hidden sm:flex flex-wrap gap-1.5">
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
@@ -166,31 +166,31 @@ export default function Projects() {
                   </div>
 
                   {/* Actions buttons */}
-                  <div className="flex items-center justify-between pt-4 border-t border-border/40" onClick={(e) => e.stopPropagation()}>
+                  <div className="flex items-center justify-between pt-2 sm:pt-4 border-t border-border/40" onClick={(e) => e.stopPropagation()}>
                     <Link
                       href={`/projects/${project.slug}`}
-                      className="inline-flex items-center text-xs font-bold text-primary hover:text-accent transition-colors gap-1 group/btn"
+                      className="inline-flex items-center text-[9px] sm:text-xs font-bold text-primary hover:text-accent transition-colors gap-0.5 sm:gap-1 group/btn"
                     >
-                      <BookOpen size={14} className="group-hover/btn:scale-110 transition-transform" />
+                      <BookOpen size={10} className="sm:size-[14px] group-hover/btn:scale-110 transition-transform" />
                       <span>Studi Kasus</span>
                     </Link>
 
-                    <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-1.5 sm:space-x-3">
                       <a
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-2 rounded-full border border-border hover:border-primary/50 hover:bg-card/80 text-foreground/80 hover:text-primary transition-all cursor-pointer"
+                        className="p-1 sm:p-2 rounded-full border border-border hover:border-primary/50 hover:bg-card/80 text-foreground/80 hover:text-primary transition-all cursor-pointer"
                         title="Kode GitHub"
                       >
-                        <Github size={15} />
+                        <Github size={11} className="sm:size-[15px]" />
                       </a>
                       <button
                         onClick={() => setSelectedProject(project)}
-                        className="p-2 rounded-full border border-border hover:border-primary/50 hover:bg-card/80 text-foreground/80 hover:text-primary transition-all cursor-pointer"
+                        className="p-1 sm:p-2 rounded-full border border-border hover:border-primary/50 hover:bg-card/80 text-foreground/80 hover:text-primary transition-all cursor-pointer"
                         title="Detail & Galeri"
                       >
-                        <ArrowUpRight size={15} />
+                        <ArrowUpRight size={11} className="sm:size-[15px]" />
                       </button>
                     </div>
                   </div>

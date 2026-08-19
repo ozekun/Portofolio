@@ -259,7 +259,7 @@ export default function Skills() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6"
+          className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-6"
         >
           {skills.map((skill) => (
             <motion.div
@@ -267,19 +267,19 @@ export default function Skills() {
               variants={itemVariants}
               whileHover={{ y: -8, scale: 1.03 }}
               transition={{ type: 'spring', stiffness: 150, damping: 12 }}
-              className="glass-panel p-5 rounded-xl border border-border flex flex-col items-center justify-center text-center space-y-3.5 group hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 min-h-[140px]"
+              className="glass-panel p-3 sm:p-5 rounded-xl border border-border flex flex-col items-center justify-center text-center space-y-2 sm:space-y-3.5 group hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 min-h-[105px] sm:min-h-[140px]"
             >
               {/* Icon wrapper */}
-              <div className="p-3.5 rounded-xl bg-card border border-border group-hover:border-primary/30 group-hover:scale-110 transition-all duration-300 flex items-center justify-center w-14 h-14 shadow-sm group-hover:shadow-[0_0_15px_var(--primary-glow)]">
+              <div className="p-2 sm:p-3.5 rounded-xl bg-card border border-border group-hover:border-primary/30 group-hover:scale-110 transition-all duration-300 flex items-center justify-center w-10 h-10 sm:w-14 sm:h-14 shadow-sm group-hover:shadow-[0_0_15px_var(--primary-glow)] [&>svg]:w-5 [&>svg]:h-5 sm:[&>svg]:w-8 sm:[&>svg]:h-8">
                 {skill.icon}
               </div>
               
               {/* Name & Subtitle */}
-              <div className="w-full flex flex-col items-center space-y-1">
-                <span className="text-sm font-bold text-foreground group-hover:text-primary transition-colors block">
+              <div className="w-full flex flex-col items-center space-y-0.5 sm:space-y-1">
+                <span className="text-xs sm:text-sm font-bold text-foreground group-hover:text-primary transition-colors block leading-tight">
                   {skill.name}
                 </span>
-                <span className="text-[9px] font-bold text-foreground/45 tracking-wider uppercase">
+                <span className="text-[7px] sm:text-[9px] font-bold text-foreground/45 tracking-wider uppercase block">
                   {skill.subtitle}
                 </span>
               </div>

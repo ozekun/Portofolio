@@ -139,13 +139,13 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Content Column */}
           <motion.div
-            className="lg:col-span-7 flex flex-col space-y-5 text-left"
+            className="lg:col-span-7 flex flex-col space-y-5 text-center lg:text-left items-center lg:items-start"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
           >
             {/* Tagline, Title, and Role Group */}
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 items-center lg:items-start">
               {/* Tagline / Subtitle */}
               <motion.div variants={itemVariants}>
                 <span className="text-xs sm:text-sm font-bold tracking-widest text-foreground/50 uppercase">
@@ -165,11 +165,11 @@ export default function Hero() {
               </motion.h1>
 
               {/* Role / Profession */}
-              <motion.div variants={itemVariants} className="flex flex-col space-y-1 pt-1">
+              <motion.div variants={itemVariants} className="flex flex-col space-y-1 pt-1 items-center lg:items-start">
                 <span className="text-base sm:text-lg font-bold text-foreground/60">
                   Seorang
                 </span>
-                <div className="inline-block border-b-2 border-primary pb-1.5 w-max max-w-full overflow-hidden h-[34px] sm:h-[40px] md:h-[46px] relative">
+                <div className="inline-block border-b-2 border-primary pb-1.5 mx-auto lg:mx-0 w-max max-w-full overflow-hidden h-[34px] sm:h-[40px] md:h-[46px] relative">
                   <AnimatePresence mode="wait">
                     <motion.span
                       key={currentRoleIndex}
@@ -187,7 +187,7 @@ export default function Hero() {
             </div>
 
             {/* Social Icons */}
-            <motion.div variants={itemVariants} className="flex items-center space-x-5 pt-2">
+            <motion.div variants={itemVariants} className="flex items-center justify-center lg:justify-start space-x-5 pt-2">
               <a href="https://github.com/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Github size={30} />
               </a>
@@ -205,7 +205,7 @@ export default function Hero() {
             {/* Description Paragraph */}
             <motion.p
               variants={itemVariants}
-              className="text-sm sm:text-base text-foreground/75 max-w-xl leading-relaxed pt-2"
+              className="text-sm sm:text-base text-foreground/75 max-w-xl leading-relaxed pt-2 mx-auto lg:mx-0"
             >
               Saya membantu bisnis dan individu mengubah ide menjadi solusi digital yang indah dan berfungsi.
             </motion.p>
@@ -213,7 +213,7 @@ export default function Hero() {
             {/* Actions Buttons */}
             <motion.div
               variants={itemVariants}
-              className="flex flex-wrap gap-4 pt-3"
+              className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-3"
             >
               <a
                 href="#projects"
@@ -242,7 +242,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Right Visual Column */}
-          <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
+          <div className="hidden lg:flex lg:col-span-5 flex-col items-center justify-center relative">
             {/* Avatar Wrapper with pulsing circles */}
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
