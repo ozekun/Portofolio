@@ -148,7 +148,7 @@ export default function Hero() {
             <div className="flex flex-col space-y-3 items-center lg:items-start">
               {/* Tagline / Subtitle */}
               <motion.div variants={itemVariants}>
-                <span className="text-xs sm:text-sm font-bold tracking-widest text-foreground/50 uppercase">
+                <span className="text-[13px] sm:text-sm font-bold tracking-widest text-foreground/50 uppercase">
                   HALO, SAYA
                 </span>
               </motion.div>
@@ -156,7 +156,7 @@ export default function Hero() {
               {/* Title */}
               <motion.h1
                 variants={itemVariants}
-                className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]"
+                className="text-4xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]"
               >
                 Theodorus <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent glow-text-neon">
@@ -166,10 +166,10 @@ export default function Hero() {
 
               {/* Role / Profession */}
               <motion.div variants={itemVariants} className="flex flex-col space-y-1 pt-1 items-center lg:items-start">
-                <span className="text-base sm:text-lg font-bold text-foreground/60">
+                <span className="text-lg sm:text-lg font-bold text-foreground/60">
                   Seorang
                 </span>
-                <div className="inline-block border-b-2 border-primary pb-1.5 mx-auto lg:mx-0 w-max max-w-full overflow-hidden h-[34px] sm:h-[40px] md:h-[46px] relative">
+                <div className="inline-block border-b-2 border-primary pb-1.5 mx-auto lg:mx-0 w-max max-w-full overflow-hidden h-[38px] sm:h-[40px] md:h-[46px] relative">
                   <AnimatePresence mode="wait">
                     <motion.span
                       key={currentRoleIndex}
@@ -177,7 +177,7 @@ export default function Hero() {
                       animate={{ y: 0, opacity: 1 }}
                       exit={{ y: 25, opacity: 0 }}
                       transition={{ duration: 0.35, ease: "easeInOut" }}
-                      className={`text-xl sm:text-2xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r ${roles[currentRoleIndex].gradient} tracking-tight block`}
+                      className={`text-2xl sm:text-2xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r ${roles[currentRoleIndex].gradient} tracking-tight block`}
                     >
                       {roles[currentRoleIndex].text}
                     </motion.span>
