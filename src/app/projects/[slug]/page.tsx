@@ -75,7 +75,7 @@ const caseStudiesData: Record<string, CaseStudy> = {
   'one-family': {
     title: 'One Family',
     category: 'Web App',
-    image: '/images/project-onefamily.jpg',
+    image: '/images/onefamily/project-onefamily.png',
     tags: ['React', 'Tailwind CSS', 'TypeScript', 'Framer Motion', 'Material Symbols'],
     demoUrl: 'https://one-family-chi.vercel.app/',
     githubUrl: 'https://github.com/theodorusfidelis/one-family',

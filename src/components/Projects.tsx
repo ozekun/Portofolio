@@ -66,10 +66,10 @@ export default function Projects() {
       title: 'One Family',
       description: 'Portal komunitas terpadu untuk menghubungkan keluarga dengan fitur bagan interaktif hubungan anggota, direktori anggota, dan kalender acara.',
       longDescription: 'One Family adalah platform portal sosial interaktif keluarga besar yang memfasilitasi komunikasi dan visualisasi silsilah keturunan. Fitur unggulannya meliputi bagan silsilah keluarga interaktif yang responsif (zoom/pan), direktori informasi anggota keluarga, kalender ulang tahun dan acara bersama, serta papan pengumuman komunitas.',
-      image: '/images/project-onefamily.jpg',
+      image: '/images/onefamily/project-onefamily.png',
       screenshots: [
-        'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80',
-        'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80'
+        '/images/onefamily/project-onefamily.png',
+        '/images/onefamily/onefamily-ss1.png'
       ],
       tags: ['React', 'Tailwind CSS', 'Material Symbols', 'Dynamic Graph', 'Framer Motion'],
       demoUrl: 'https://one-family-chi.vercel.app/',
