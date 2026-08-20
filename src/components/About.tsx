@@ -13,7 +13,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="pt-50 pb-36 relative bg-background/50 border-b border-border/40">
+    <section id="about" className="pt-12 sm:pt-24 lg:pt-36 pb-12 sm:pb-24 lg:pb-36 relative bg-background/50 border-b border-border/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

@@ -129,7 +129,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-30 pb-16 overflow-hidden bg-background"
+      className="relative min-h-0 lg:min-h-screen flex items-center justify-center pt-24 pb-8 lg:pt-30 lg:pb-16 overflow-hidden bg-background"
     >
       {/* Dynamic Background Neon Light Circles */}
       <div className="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-primary/10 rounded-full blur-[100px] pointer-events-none animate-pulse-slow"></div>
