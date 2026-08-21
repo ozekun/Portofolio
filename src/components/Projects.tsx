@@ -56,7 +56,7 @@ export default function Projects() {
         '/images/misatext/misatext-ss2.png',
         '/images/misatext/misatext-ss3.png'
       ],
-      tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Broadcast API', 'SPX Graphics'],
+      tags: ['Next.js', 'Supabase', 'Vercel', 'SPX API'],
       demoUrl: 'https://text-misa-komsos.vercel.app/',
       githubUrl: 'https://github.com/ozekun/text-misa-komsos',
       slug: 'misa-text',
@@ -71,7 +71,7 @@ export default function Projects() {
         '/images/onefamily/project-onefamily.png',
         '/images/onefamily/onefamily-ss1.png'
       ],
-      tags: ['React', 'Tailwind CSS', 'Material Symbols', 'Dynamic Graph', 'Framer Motion'],
+      tags: ['React', 'Firebase', 'Vercel'],
       demoUrl: 'https://one-family-chi.vercel.app/',
       githubUrl: 'https://github.com/ozekun/one-family',
       slug: 'one-family',
