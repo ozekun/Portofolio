@@ -194,11 +194,8 @@ export default function Hero() {
               <a href="https://linkedin.com/in/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Linkedin size={30} />
               </a>
-              <a href="https://instagram.com/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
+              <a href="https://www.instagram.com/the.sam_22/" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Instagram size={30} />
-              </a>
-              <a href="https://tiktok.com/@theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
-                <Tiktok size={30} />
               </a>
             </motion.div>
 
