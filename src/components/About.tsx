@@ -8,8 +8,8 @@ import Image from 'next/image';
 export default function About() {
   const stats = [
     { label: 'Tahun Pengalaman', value: '3+' },
-    { label: 'Proyek Selesai', value: '4+' },
-    { label: 'Klien Puas', value: '2' },
+    { label: 'Proyek Selesai', value: '5+' },
+    { label: 'IPK / GPA', value: '3.86' },
   ];
 
   return (

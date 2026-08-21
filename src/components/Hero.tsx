@@ -204,7 +204,7 @@ export default function Hero() {
               variants={itemVariants}
               className="text-sm sm:text-base text-foreground/75 max-w-xl leading-relaxed pt-2 mx-auto lg:mx-0"
             >
-              Saya membantu bisnis dan individu mengubah ide menjadi solusi digital yang indah dan berfungsi.
+              Saya adalah mahasiswa Teknik Informatika yang tertarik dalam pengembangan web dan teknologi digital.
             </motion.p>
 
             {/* Actions Buttons */}

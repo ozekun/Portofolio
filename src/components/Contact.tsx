@@ -130,7 +130,7 @@ export default function Contact() {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-bold tracking-widest text-primary uppercase mb-2">Kontak</h2>
-          <p className="text-3xl sm:text-4xl font-bold text-foreground">Mari Membangun Sesuatu yang Luar Biasa Bersama</p>
+          <p className="text-3xl sm:text-4xl font-bold text-foreground">Mari Terhubung</p>
           <div className="h-1 w-12 bg-primary mx-auto mt-4 rounded-full"></div>
         </div>
 
@@ -147,7 +147,7 @@ export default function Contact() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-foreground">Hubungi Saya</h3>
               <p className="text-foreground/75 leading-relaxed text-sm sm:text-base">
-                Saya selalu terbuka untuk proyek baru, kolaborasi kreatif, atau sekadar berdiskusi tentang teknologi. Kirim pesan dan saya akan merespon secepat mungkin!
+                Silakan kirim pesan melalui formulir ini jika Anda memiliki pertanyaan, ingin berdiskusi tentang teknologi, atau sekadar menyapa!
               </p>
             </div>
 
