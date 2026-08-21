@@ -83,7 +83,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/theodorusfidelis', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/theodorusfidelis', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/theodorus-fidelis-samangun-60953833b/', label: 'LinkedIn' },
     { icon: Instagram, href: 'https://instagram.com/theodorusfidelis', label: 'Instagram' },
   ];
 

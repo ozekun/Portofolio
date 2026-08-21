@@ -191,7 +191,7 @@ export default function Hero() {
               <a href="https://github.com/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Github size={30} />
               </a>
-              <a href="https://linkedin.com/in/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
+              <a href="https://www.linkedin.com/in/theodorus-fidelis-samangun-60953833b/" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Linkedin size={30} />
               </a>
               <a href="https://instagram.com/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
