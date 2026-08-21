@@ -138,19 +138,6 @@ export default function Skills() {
       ),
     },
     {
-      name: 'n8n',
-      subtitle: 'AUTOMATION',
-      icon: (
-        <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="#FF6C37" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="5" r="3" fill="#FF6C37" />
-          <circle cx="5" cy="18" r="3" fill="#FF6C37" />
-          <circle cx="19" cy="18" r="3" fill="#FF6C37" />
-          <line x1="12" y1="8" x2="6.5" y2="15.5" />
-          <line x1="12" y1="8" x2="17.5" y2="15.5" />
-        </svg>
-      ),
-    },
-    {
       name: 'Firebase',
       subtitle: 'DATABASE',
       icon: (

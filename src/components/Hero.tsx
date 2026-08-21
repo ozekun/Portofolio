@@ -191,7 +191,7 @@ export default function Hero() {
               <a href="https://github.com/ozekun" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Github size={30} />
               </a>
-              <a href="https://linkedin.com/in/theodorusfidelis" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
+              <a href="https://www.linkedin.com/in/theo-samangun" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
                 <Linkedin size={30} />
               </a>
               <a href="https://www.instagram.com/the.sam_22/" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors cursor-pointer">
@@ -220,8 +220,8 @@ export default function Hero() {
                 <ArrowUpRight size={18} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </a>
               <a
-                href="/cv-theodorus.html"
-                target="_blank"
+                href="/cv-theodorus.pdf"
+                download
                 className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-foreground bg-transparent border border-border hover:border-primary/50 hover:bg-card/50 rounded-full transition-all duration-200 group cursor-pointer"
               >
                 Unduh CV
