@@ -9,7 +9,7 @@ export default function About() {
   const stats = [
     { label: 'Tahun Pengalaman', value: '3+' },
     { label: 'Proyek Selesai', value: '5+' },
-    { label: 'IPK / GPA', value: '3.86' },
+    { label: 'Organisasi Aktif', value: '2' },
   ];
 
   return (
