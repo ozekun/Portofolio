@@ -112,14 +112,14 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { label: 'Email', value: 'theodorusfidelis@gmail.com', icon: Mail, href: 'mailto:theodorusfidelis@gmail.com' },
-    { label: 'Telepon', value: '+62 812-3456-7890', icon: Phone, href: 'tel:+6281234567890' },
+    { label: 'Email', value: 'theosamangun468@gmail.com', icon: Mail, href: 'mailto:theosamangun468@gmail.com' },
+    { label: 'Telepon', value: '+62 812-3603-2077', icon: Phone, href: 'tel:+6281236032077' },
     { label: 'Lokasi', value: 'Gianyar, Bali, Indonesia', icon: MapPin, href: null },
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/theodorusfidelis', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/theodorus-fidelis-samangun-60953833b/', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/ozekun', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/theodorusfidelis', label: 'LinkedIn' },
     { icon: Instagram, href: 'https://instagram.com/theodorusfidelis', label: 'Instagram' },
   ];
 
