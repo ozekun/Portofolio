@@ -220,8 +220,9 @@ export default function Hero() {
                 <ArrowUpRight size={18} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </a>
               <a
-                href="/cv-theodorus.pdf"
-                download
+                href="https://drive.google.com/file/d/1AZfFq3I_XI3aUPjdKV-3sjA8EJMCcFE9/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-foreground bg-transparent border border-border hover:border-primary/50 hover:bg-card/50 rounded-full transition-all duration-200 group cursor-pointer"
               >
                 Unduh CV
